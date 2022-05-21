@@ -1,0 +1,20 @@
+5) Assumindo que colocamos cada nó visitado numa lista, temos as seguintes
+situações em cada percurso: 
+	No pecurso pós-ordem, visita-se primeiro os filhos esquerdo e direito, 
+para apenas depois visitar o nó. Dessa forma, a raiz, sendo o nó inicial, será
+visitado por último e portanto será o último da lista.
+
+	No caso da pré-ordem, o nó será visitado antes dos filhos, seguindo o caso
+contrário do que ocorre no pós-ordem, então a raiz é o primeiro da lista.
+
+	No percurso simétrico, visita-se primeiro o filho esquerdo, depois o nó e por
+fim o filho esquerdo. Sendo a árvore cheia, ela possui n = 2^h - 1 elementos, para algum h
+maior que 1, sendo esse h a altura da árvore. Além disso, os filhos esquerdo e direito da raiz
+ também são árvore cheias, tendo cada um deles 2^(h-1) - 1 elementos. Dessa forma o percurso em ordem
+ simétrica, visitará os 2^(h-1) - 1 elementos do filho esquerdo primeiro, a raiz em segundo, e por fim
+ os 2^(h-1) - 1 elementos do filho direito. Logo, como os filhos possuem a mesma quantidade de nós,
+ a raiz estará exatamente no meio da lista.
+ 
+ 
+ 
+ 

@@ -1,8 +1,0 @@
- 6) A altura máxima de uma árvore binária com 28 elementos é altura da
-  árvore zigzag degenerada com um nó por nível totalizando
- 28 níveis, sendo essa quantidade a altura da árvore.
- 
- Já a altura mínima é a altura de uma árvore completa com 28 elementos, sendo portanto igual a log_2(28) + 1
- que é igual a 5.
- 
- 

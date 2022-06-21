@@ -1,0 +1,8 @@
+a) O maior limite assintótico inferior para o melhor caso em função do parâmetro n.
+R.: O melhor caso acontecerá no momento em que as iterações chegarem na última condição. Este loop é θ(logn), isto é, tem limites assintóticos superiores e inferiores iguais. O loop exterior é θ(n). Pela regra do produto, o maior limite assintótico inferior para o melhor caso é ω(nlogn).
+
+b) O menor limite assintótico superior para o pior caso em função do parâmetro n.
+O pior caso acontecerá quando todas as iterações chegarem na segunda condição. Usando um pensamento parecido ao utilizado na questão acima, podemos concluir pela regra do produto que, o menor limite assintótico superior para o pior caso é O(n³).
+
+c) As condições que o array a deve satisfazer para caracterizar o melhor caso
+R.: Para acontecer o melhor caso, todos os elementos do array devem satisfazer a condição 300 ≤ n ≤ 600.

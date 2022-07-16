@@ -13,7 +13,7 @@ class Fila:
         if not self.vazia():
             del self.fila[0]
         #del self.fila[0]
-    def imprimi(self):
+    def imprimir(self):
         for i in range(len(self.fila)):
 
             y=self.fila[i]
@@ -28,4 +28,4 @@ fila.inserir(4)
 print(fila.tamanho())
 fila.excluir()
 print(fila.tamanho())
-fila.imprimi()
+fila.imprimir()

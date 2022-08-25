@@ -1,3 +1,5 @@
+<img src="icone-python.png" align="right" width="150">
+
 # ALGORITMOS-E-ESTR-DE-DADOS-II
 
 Estrutura de Dados II com linguagem Python - Sistemas de Informação - Cefet/RJ
